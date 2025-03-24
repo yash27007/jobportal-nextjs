@@ -11,11 +11,11 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
-      
+      {/* Navigation */}
       <nav className="fixed w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
         <div className="container max-w-6xl mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            {/* <BriefcaseIcon className="h-6 w-6 text-primary" /> */}
+            <BriefcaseIcon className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold">JobSeek</span>
           </div>
           <div className="flex gap-4">
